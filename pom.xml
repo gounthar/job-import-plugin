@@ -31,7 +31,8 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>3.5</version>
+    <version>4.51</version>
+    <relativePath/>
   </parent>
 
   <artifactId>job-import-plugin</artifactId>
@@ -45,8 +46,7 @@
   <url>http://wiki.jenkins-ci.org/display/JENKINS/Job+Import+Plugin</url>
 
   <properties>
-    <jenkins.version>2.107.3</jenkins.version>
-    <java.level>8</java.level>
+    <jenkins.version>2.346.3</jenkins.version>
     <findbugs.failOnError>false</findbugs.failOnError>
   </properties>
 
